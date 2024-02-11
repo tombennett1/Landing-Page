@@ -1,0 +1,28 @@
+* {
+  font-family: "Roboto";
+}
+
+.header {
+  display: flex;
+  height: 60px;
+  padding: 4px;
+  border: 20px;
+  gap: 15px;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 15px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 60px;
+}
