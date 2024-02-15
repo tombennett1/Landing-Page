@@ -3,11 +3,37 @@
   background-color: #1f2937;
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: 550;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+/*Button styling for the entire landing page*/
+button {
+  height: 50px;
+  width: 160px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 6px;
+}
+
 .link {
   color: white;
   text-decoration: none;
 }
 
+/*Navigation bar styling*/
 .navbar {
   display: flex;
   height: 80px;
@@ -16,10 +42,8 @@
 }
 
 .navbar-logo {
-  height: 80px;
+  height: 140px;
   margin-left: 24px;
-  border: 4px solid white;
-  border-radius: 30%;
 }
 
 .navbar-links {
@@ -35,11 +59,32 @@
   color: white;
 }
 
-.section-1 {
+/*Flexbox container with row alignment*/
+.container {
+  display: flex;
+  color: #f9faf8;
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+  gap: 30px;
 }
 
-.section-1-left {
+/*Flexbox container for left hand side of section 1. Column alignment for H1, Paragraph and button*/
+.section-one {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-right: 50px;
 }
 
-.section-1-right {
+.section-one-image {
+  height: 300px;
+  width: auto;
+  border-radius: 5%;
+}
+
+.section-two {
+  background-color: white;
 }
