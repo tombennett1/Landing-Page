@@ -1,26 +1,39 @@
 * {
-  font-family: "Roboto";
   background-color: #1f2937;
 }
 
 h1 {
+  font-family: "roboto";
   font-size: 50px;
-  font-weight: 550;
+  font-weight: 500;
   color: white;
 }
 
+h2 {
+  font-family: "roboto";
+  font-size: 50px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  background-color: transparent;
+}
+
 p {
+  font-family: "Roboto";
+  text-align: left;
   font-size: 20px;
   font-weight: 400;
   color: white;
+  background-color: transparent;
 }
 
 /*Button styling for the entire landing page*/
 button {
+  align-self: flex-start;
   height: 50px;
   width: 160px;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: white;
   background-color: #3882f6;
@@ -29,12 +42,14 @@ button {
 }
 
 .link {
+  font-family: "Roboto";
   color: white;
   text-decoration: none;
 }
 
 /*Navigation bar styling*/
 .navbar {
+  background-color: #1f2937;
   display: flex;
   height: 80px;
   padding: 10px;
@@ -61,30 +76,68 @@ button {
 
 /*Flexbox container with row alignment*/
 .container {
+  background-color: transparent;
   display: flex;
-  color: #f9faf8;
   align-items: center;
   justify-content: center;
-  padding: 150px;
-  gap: 30px;
+  padding: 60px;
+  gap: 20px;
 }
 
 /*Flexbox container for left hand side of section 1. Column alignment for H1, Paragraph and button*/
-.section-one {
+.section-1 {
   flex-basis: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: left;
-  margin-right: 50px;
+  padding: 20px;
+  gap: 40px;
 }
 
-.section-one-image {
+.section-1 img {
   height: 300px;
   width: auto;
   border-radius: 5%;
 }
 
-.section-two {
+.section-2 {
+  display: flex;
+  flex-direction: column;
   background-color: white;
+  padding: 20px;
+}
+
+.coffee-selection {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.coffee-type {
+  background-color: transparent;
+}
+.coffee-type img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 5px 20px 0px 20px;
+  border-radius: 10%;
+}
+
+.coffee-type p {
+  color: black;
+  text-align: center;
+  background-color: transparent;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote p {
+  background-color: transparent;
+  color: black;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
 }
